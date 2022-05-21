@@ -1,30 +1,31 @@
 package br.com.juliano.application;
 
-import br.com.juliano.domain.security.Login;
-import br.com.juliano.repository.login.LoginRepositoryImpl;
+import br.com.juliano.application.pessoa.MotoristaController;
 
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Castroturismo");
-		Login l = new Login();
+		MotoristaController motoristaController = new MotoristaController();
 
-		l.setUser("root2");
+		String[] dados = new String[14];
 
-		l.setPassword("123456");
-
-		LoginRepositoryImpl lImpl = new LoginRepositoryImpl();
-
-		// lImpl.add(l);
-
-		long id = 1;
-
-		l = lImpl.get(id);
-
-		System.out.println(l.getUser());
-
-		System.exit(0);
+		dados[0] = "Joao Da Silva";
+		dados[1] = "Rua das Couves";
+		dados[2] = "Vila da Horta";
+		dados[3] = "Castro";
+		dados[4] = "Parana";
+		dados[5] = "Brasil";
+		dados[6] = "12345678";
+		dados[7] = "SSPR";
+		dados[8] = "1234567890123";
+		dados[9] = "jsilva@provedor.com.br";
+		dados[10] = "12345678901234567";
+		dados[11] = "AE";
+		dados[12] = "true";
+		dados[13] = "1";
+		motoristaController.gravar(dados);
 
 	}
 

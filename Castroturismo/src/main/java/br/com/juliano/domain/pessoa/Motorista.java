@@ -18,7 +18,7 @@ public class Motorista extends PessoaFisica {
 
 	private String categoriaCNH;
 
-	private Boolean possuiPamcary;
+	private Boolean possuiSeguro;
 
 	private StatusSeguradoraENUM statusSeguradora;
 
@@ -61,17 +61,17 @@ public class Motorista extends PessoaFisica {
 	}
 
 	/**
-	 * @return the possuiPamcary
+	 * @return the possuiSeguro
 	 */
-	public Boolean getPossuiPamcary() {
-		return possuiPamcary;
+	public Boolean getPossuiSeguro() {
+		return possuiSeguro;
 	}
 
 	/**
-	 * @param possuiPamcary the possuiPamcary to set
+	 * @param possuiSeguro the possuiSeguro to set
 	 */
-	public void setPossuiPamcary(Boolean possuiPamcary) {
-		this.possuiPamcary = possuiPamcary;
+	public void setPossuiSeguro(Boolean possuiSeguro) {
+		this.possuiSeguro = possuiSeguro;
 	}
 
 	/**
@@ -105,8 +105,8 @@ public class Motorista extends PessoaFisica {
 	@Override
 	public String toString() {
 		return String.format(
-				"Motorista [ nome = %s, numeroCNH = %s, categoriaCNH = %s, possuiPamcary = %s, statusSeguradora = %s, rotas = %s]",
-				getNome(), numeroCNH, categoriaCNH, possuiPamcary, statusSeguradora, rotas);
+				"Motorista [ nome = %s, numeroCNH = %s, categoriaCNH = %s, possuiPamcary = %s, statusSeguradora = %s]",
+				getNome(), numeroCNH, categoriaCNH, possuiSeguro, statusSeguradora);
 	}
 
 }

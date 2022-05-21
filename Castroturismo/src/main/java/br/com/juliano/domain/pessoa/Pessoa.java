@@ -12,6 +12,8 @@ public class Pessoa {
 
 	private String nome;
 
+	private String endereco;
+
 	private String bairro;
 
 	private String cidade;
@@ -37,10 +39,11 @@ public class Pessoa {
 	 * @param estado - Estado
 	 * @param pais   - Pais
 	 */
-	public Pessoa(Integer id, String nome, String bairro, String cidade, String estado, String pais) {
+	public Pessoa(Integer id, String nome, String endereco, String bairro, String cidade, String estado, String pais) {
 		super();
 		this.id = id;
 		this.nome = nome;
+		this.endereco = endereco;
 		this.bairro = bairro;
 		this.cidade = cidade;
 		this.estado = estado;
@@ -73,6 +76,20 @@ public class Pessoa {
 	 */
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+
+	/**
+	 * @return the endereco
+	 */
+	public String getEndereco() {
+		return endereco;
+	}
+
+	/**
+	 * @param endereco the endereco to set
+	 */
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
 	}
 
 	/**
