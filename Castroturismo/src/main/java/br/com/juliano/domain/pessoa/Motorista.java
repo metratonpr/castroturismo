@@ -105,8 +105,16 @@ public class Motorista extends PessoaFisica {
 	@Override
 	public String toString() {
 		return String.format(
-				"Motorista [ nome = %s, numeroCNH = %s, categoriaCNH = %s, possuiPamcary = %s, statusSeguradora = %s]",
+				"Motorista [ nome = %s, numeroCNH = %s, categoriaCNH = %s, possuiSeguro = %s, statusSeguradora = %s]",
 				getNome(), numeroCNH, categoriaCNH, possuiSeguro, statusSeguradora);
+	}
+
+	public String toCsv() {
+
+		return getNome() + ";" + getEndereco() + ";" + getBairro() + ";" + getCidade() + ";" + getEstado() + ";"
+				+ getPais() + ";" + getRg() + ";" + getOrgaoEmissao() + ";" + getCpf() + ";" + getTelefoneCelular()
+				+ ";" + getEmail() + ";" + getNumeroCNH() + ";" + getCategoriaCNH() + ";" + getPossuiSeguro() + ";"
+				+ getStatusSeguradora() + ";";
 	}
 
 }
