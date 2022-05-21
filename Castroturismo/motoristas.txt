@@ -1,0 +1,12 @@
+Joao Da Silva;Rua das Couves;Vila da Horta;Castro;Parana;Brasil;12345678;SSPR;1234567890123;42-99999-99999;jsilva@provedor.com.br;12345678901234567;AE;true;PLATINUM;
+Joao Da Silva;Rua das Couves;Vila da Horta;Castro;Parana;Brasil;12345678;SSPR;1234567890123;42-99999-99999;jsilva@provedor.com.br;12345678901234567;AE;true;PLATINUM;
+Joao Da Silva;Rua das Couves;Vila da Horta;Castro;Parana;Brasil;12345678;SSPR;1234567890123;42-99999-99999;jsilva@provedor.com.br;12345678901234567;AE;true;PLATINUM;
+Joao Da Silva;Rua das Couves;Vila da Horta;Castro;Parana;Brasil;12345678;SSPR;1234567890123;42-99999-99999;jsilva@provedor.com.br;12345678901234567;AE;true;PLATINUM;
+Antonio Da Silva;Rua das Couves;Vila da Horta;Castro;Parana;Brasil;12345678;SSPR;1234567890123;42-99999-99999;jsilva@provedor.com.br;12345678901234567;AE;true;PLATINUM;
+Antonio Da Silva;Rua das Couves;Vila da Horta;Castro;Parana;Brasil;12345678;SSPR;1234567890123;42-99999-99999;jsilva@provedor.com.br;12345678901234567;AE;true;PLATINUM;
+Antonio Da Silva;Rua das Couves;Vila da Horta;Castro;Parana;Brasil;12345678;SSPR;1234567890123;42-99999-99999;jsilva@provedor.com.br;12345678901234567;AE;true;PLATINUM;
+Pedro Da Silva;Rua das Couves;Vila da Horta;Castro;Parana;Brasil;12345678;SSPR;1234567890123;42-99999-99999;jsilva@provedor.com.br;12345678901234567;AE;true;PLATINUM;
+ Juca Bala;Rua Tal;Invernada do Matadouro;PR;Castor;Brasil;0123456789;SSPR;01234567890123;42999998563;jucabala@juca.com.br;1234567890123;A;true;NAO_SEGURADO;
+Jeca Tatu;Rua TAl;Invernada do Matadouro;UF;Castro;Brasil;012345678;SSPR;012345678;429986565;jeca@jeca.com.br;12345678;A;true;NAO_SEGURADO;
+Jeca Tatu;Rua TAl;Invernada do Matadouro;UF;Castro;Brasil;012345678;SSPR;012345678;429986565;jeca@jeca.com.br;12345678;A;true;PLATINUM;
+Cincao;Rua Tal;Invernada do Matadouro;PR;Castro;Brasil;123456789;SSPR;12345678912;42998895623;cincao@cinco.com.br;12345678912;A;false;BRONZE;
