@@ -6,7 +6,7 @@ package br.com.juliano.domain.pessoa;
  * @author Juliano Roque Vieira
  *
  */
-public class Pessoa {
+abstract class Pessoa {
 
 	private Integer id;
 
